@@ -1,0 +1,11 @@
+<decorators defaultdir="/decorators">
+    <excludes>
+        <pattern>/assets/*</pattern>
+    </excludes>
+    <decorator name="default" page="Decorator.jsp">
+        <excludes>
+            <pattern>/assets/*</pattern>
+        </excludes>
+        <pattern>/*</pattern>
+    </decorator>
+</decorators>

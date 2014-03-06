@@ -1,0 +1,62 @@
+.section-head {
+    height:36px;
+    background-color:#ffffff;
+    box-shadow:  1px 4px 6px 0px #323232;
+    position: relative;
+}
+
+.section-body {
+    background-color: #FFF;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    padding: 9px;
+    margin-bottom: 16px;
+}
+
+.link{
+    font-size: 11px;
+    color: #000;
+    line-height: 23px;
+    display: block;
+}
+.link:hover{
+    text-decoration: underline;
+}
+ /*-------------------------------------- Bg colors ----------------------------------------------------*/
+.yellow-section {background-color:#fcd805;}
+.orange-section {background-color:#fea001;}
+.dark-green-section {background-color:#0c5b10;}
+.light-green-section {background-color:#8ccd29;}
+.brown-section {background-color:#3E1B02;}
+.red-section{background-color:#ca3500;}
+.gray-section{background-color: #d8d6d6;}
+/*--------------------------------------- Border colors------------------------------------------------*/
+.yellow-border{border: 1px solid #fcd805;}
+.orange-border{border:1px solid #fea001;}
+.dark-green-border{border:1px solid #0c5b10;}
+.light-green-border{border:1px solid #8ccd29;}
+.brown-border{border:1px solid #3E1B02;}
+.red-border{border:1px solid #ca3500;}
+.gray-border{border:1px solid #D8D6D6;}
+.black-border{border:1px solid #000;}
+/*-------------------------------------- link colors ---------------------------------------------------*/
+.green-link{color: #609905;}
+.brown-link{color: #3E1B02;}
+.orange-link{color: #fea001;}
+.yellow-link{color: #fcd805;}
+.dark-green-link{color: #0c5b10;}
+.red-link{color: #ca3500;}
+/*-------------------------------------- text shadows --------------------------------------------------*/
+.yellow-text-shadow{text-shadow: 1px 1px 0 #fcd805;}
+.orange-text-shadow{text-shadow: 1px 1px 0 #fea001;}
+.dark-green-text-shadow{text-shadow: 1px 1px 0 #0c5b10;}
+.light-green-text-shadow{text-shadow: 1px 1px 0 #8ccd29;}
+.brown-text-shadow{text-shadow: 1px 1px 0 #3E1B02;}
+.red-text-shadow{text-shadow: 1px 1px 0 #ca3500;}
+.gray-text-shadow{text-shadow: 1px 1px 0 #D8D6D6;}
+.black-text-shadow{text-shadow: 1px 1px 0 #000;}
+.white-text-shadow{text-shadow: 1px 1px 0 #fff;}
+
+
+

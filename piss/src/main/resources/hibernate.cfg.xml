@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+
+        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+
+        <property name="hibernate.connection.useUnicode">true</property>
+        <property name="hibernate.connection.charSet">UTF8</property>
+
+        <property name="connection.datasource">java:comp/env/jdbc/piss</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="cache.provider_class">org.hibernate.cache.HashtableCacheProvider</property>
+        <property name="transaction.flush_before_completion">true</property>
+        <property name="transaction.factory_class">org.hibernate.transaction.JDBCTransactionFactory</property>
+
+        <!--<property name="hibernate.search.indexing_strategy"> manual</property>-->
+
+        <!-- Echo all executed SQL to stdout -->
+        <property name="show_sql">true</property>
+
+    </session-factory>
+</hibernate-configuration>
+

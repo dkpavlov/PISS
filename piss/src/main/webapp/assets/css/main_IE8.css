@@ -1,0 +1,120 @@
+/*------------------------------------------ RESET ---------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/*------------------------------------------ END OF RESET ---------------------------------------------------*/
+body
+{
+    background-color:#d4ecf6;
+    font-family:Verdana;
+    font-size:12px;
+    color:#0c90bb;
+}
+
+
+/*------------------------------------------ LOG IN STYLES ---------------------------------------------------*/
+
+
+.login_form input[type="submit"]
+{
+	/*text-align:center;   */
+	display:block;
+	border:1px solid #fff;
+	border-radius:2px;
+	height:20px;
+	width:auto;
+	margin:10px 75px !important;
+}
+
+/*------------------------------------------ ERROR STYLE ---------------------------------------------------*/
+
+/*------------------------------------------ FOOTER STYLES ---------------------------------------------------*/
+
+
+
+.last_logo img:hover
+{
+    background-image: url(../images/esf_logo_normal.png) !important;
+    background-repeat: no-repeat;
+    width:93px;
+    height:60px;
+}
+
+.last_div_footer
+{
+	border-right:none;
+	width:305px !important;
+}
+
+/*------------------------------------------ HOME STYLES ---------------------------------------------------*/
+
+.soft_filter
+{
+    width:100px !important;
+}
+
+.incident_desc
+{
+    text-align: center;
+}
+
+.incident_desc label
+{
+    margin-left: -220px;
+}
+
+
+/*-------------------------------------------- ADMIN PANEL -------------------------------------------------------------*/
+
+.acc
+{
+    border:1px solid #ececeb;
+    width:720px !important
+}
+
+.acc div label
+{
+    line-height: 17px;;
+}
+
+#acc_delete
+{
+    background-color: #ececeb;
+    width:60px !important;
+    height:55px;
+    box-shadow: inset 0px 0px 1px 1px #f8f8f8;
+    border-bottom:1px solid #ececeb;
+    border-left:1px solid #ececeb;
+    border-top:1px solid #dbdadb;
+    border-right:1px solid #dbdadb;
+    margin-right: 0 !important;
+    text-align: center;
+    position: relative;
+}
+
+#acc_delete img
+{
+    margin-top: 18px;
+}
+
+#acc_delete a:focus
+{
+    outline:0;
+}
